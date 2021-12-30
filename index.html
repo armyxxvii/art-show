@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1024 height=768></canvas>
+      <canvas id="unity-canvas" width=1024 height=576></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Build.loader.js";
+      var loaderUrl = buildUrl + "/be5c8a837410560f3ca8989808c21df4.js";
       var config = {
-        dataUrl: buildUrl + "/Build.data.br",
-        frameworkUrl: buildUrl + "/Build.framework.js.br",
-        codeUrl: buildUrl + "/Build.wasm.br",
+        dataUrl: buildUrl + "/e92ce91cc6499a7c219705c472d4a095.data",
+        frameworkUrl: buildUrl + "/b742616d81c2bfd0e2a5d6351a3d44be.js",
+        codeUrl: buildUrl + "/b845abf90c48875f998a39573c4c36da.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "GrayCorner",
         productName: "27Army test",
@@ -83,7 +83,7 @@
         unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
         canvas.style.width = "1024px";
-        canvas.style.height = "768px";
+        canvas.style.height = "576px";
       }
       loadingBar.style.display = "block";
 
